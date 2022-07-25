@@ -1,0 +1,13 @@
+#include "Servo.h"
+
+Servo myServo;
+
+void setup(){
+  myServo.attach(3);
+  myServo.write(250);
+}
+
+void loop()
+{
+ 
+}

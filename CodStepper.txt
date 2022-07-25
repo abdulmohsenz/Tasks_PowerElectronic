@@ -1,0 +1,17 @@
+#include <Stepper.h>
+
+Stepper myStepper(2048,8,10,9,11);
+               
+
+void setup()
+{
+  myStepper.setSpeed(5);
+  myStepper.step(2048);
+}
+
+void loop()
+{
+   
+
+ 
+}
